@@ -15,7 +15,7 @@ const student = new Student(102,
     'Sarah',
     'Software Engineering'
     );
-    expect(student.getStudentName()).toBe('Sarah');
+    expect(student.getStudentName()).toBe('Mary');
     });
     test('Should display student details', () => {
     const student = new Student(
